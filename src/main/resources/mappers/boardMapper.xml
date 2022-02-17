@@ -7,7 +7,7 @@
     </insert>
     
     <select id="selectList" resultType="bdto">
-        select * from pboard
+        select bno, title, writer, readcount, mod_at from pboard order by bno desc
     </select>
     
     <select id="selectOne" parameterType="Long">
