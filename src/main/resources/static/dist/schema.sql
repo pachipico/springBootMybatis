@@ -1,5 +1,5 @@
 create table pboard (
-    pno bigint(20) not null auto_increment,
+    bno bigint(20) not null auto_increment,
     title varchar(200) not null,
     writer varchar(100) not null,
     content text,

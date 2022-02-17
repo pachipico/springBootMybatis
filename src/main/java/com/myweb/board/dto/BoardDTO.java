@@ -1,8 +1,14 @@
 package com.myweb.board.dto;
 
-import lombok.extern.slf4j.Slf4j;
+import lombok.Data;
 
-@Slf4j
+@Data
 public class BoardDTO {
-
+	private Long bno;
+	private String title;
+	private String writer;
+	private String content;
+	private String regAt;
+	private String modAt;
+	private Long readcount;
 }

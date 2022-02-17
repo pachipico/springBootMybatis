@@ -3,6 +3,6 @@
 "http://mybatis.org/dtd/mybatis-3-config.dtd">
 <configuration>
     <typeAliases>
-        <typeAlias type="com.myweb.dto.Board" alias="bdto"/>
+        <typeAlias type="com.myweb.board.dto.BoardDTO" alias="bdto"/>
     </typeAliases>
 </configuration>
